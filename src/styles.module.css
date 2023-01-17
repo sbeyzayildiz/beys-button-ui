@@ -1,9 +1,44 @@
 /* add css module styles here (optional) */
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+
+button {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 16px;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
 }
+
+button:hover {
+  cursor: pointer !important;
+  background-color: #e2e2e2;
+}
+
+button:focus {
+}
+
+.primary {
+  border: 1px solid #1790ff;
+  background-color: #1790ff;
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: #fff;
+  color: #1790ff;
+}
+
+.dashed {
+  border: 1px dashed #e2e2e2;
+}
+
+.text {
+  border: none;
+}
+
+.link {
+  border: none;
+  color: #1790ff;
+}
+
